@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yavuz | Portfolyo</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white">
+
+    <nav class="sticky top-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <span class="text-xl font-bold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">Yavuz.dev</span>
+            <div class="flex space-x-6 text-sm font-medium text-slate-300">
+                <a href="#home" class="hover:text-indigo-400 transition">Ana Sayfa</a>
+                <a href="#about" class="hover:text-indigo-400 transition">Hakkımda</a>
+                <a href="#skills" class="hover:text-indigo-400 transition">Beceriler</a>
+                <a href="#projects" class="hover:text-indigo-400 transition">Projeler</a>
+                <a href="#contact" class="hover:text-indigo-400 transition">İletişim</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32 flex flex-col items-center text-center">
+        <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6">
+            Merhaba, Ben <span class="bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">Yavuz</span>
+        </h1>
+        <p class="text-lg sm:text-xl text-slate-400 max-w-2xl mb-8">
+            Geleceğin teknolojilerini inşa eden bir Bilgisayar Programcılığı öğrencisiyim. Mobil ve web geliştirme alanlarında yenilikçi çözümler üretiyorum.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="#projects" class="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 font-semibold rounded-lg shadow-lg transition">Projelerimi Gör</a>
+            <a href="#contact" class="px-6 py-3 bg-slate-800 hover:bg-slate-750 border border-slate-700 font-semibold rounded-lg transition">İletişime Geç</a>
+        </div>
+    </section>
+
+    <hr class="border-slate-800 max-w-5xl mx-auto">
+
+    <section id="about" class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <h2 class="text-3xl font-bold mb-8 text-indigo-400">Hakkımda</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-slate-300">
+            <div class="md:col-span-2 space-y-4">
+                <p>
+                    İzmir Ekonomi Üniversitesi Bilgisayar Programcılığı bölümü öğrencisiyim. Yazılım dünyasına adım attığımdan beri kendimi web ve mobil uygulama geliştirme alanlarında sürekli olarak geliştiriyorum.
+                </p>
+                <p>
+                    Kod yazmanın yanı sıra otomotiv mekaniği, teknik motor detayları ve bilgisayar donanımları geliştirmek hobilerim arasında yer alıyor. Sorun giderme ve performans optimizasyonu konusundaki merakımı hem yazılım projelerime hem de donanım çalışmalarına yansıtıyorum.
+                </p>
+            </div>
+            <div class="bg-slate-800/50 border border-slate-800 p-6 rounded-xl space-y-3">
+                <h3 class="font-bold text-white mb-2">Eğitim Bilgileri</h3>
+                <p class="text-sm"><strong class="text-indigo-400">Üniversite:</strong> İzmir Ekonomi Üniversitesi</p>
+                <p class="text-sm"><strong class="text-indigo-400">Bölüm:</strong> Bilgisayar Programcılığı</p>
+                <p class="text-sm"><strong class="text-indigo-400">Dönem:</strong> 2024 - 2026</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="border-slate-800 max-w-5xl mx-auto">
+
+    <section id="skills" class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <h2 class="text-3xl font-bold mb-8 text-indigo-400">Teknik ve Kişisel Beceriler</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <div class="bg-slate-800/40 p-4 rounded-lg border border-slate-800 text-center font-medium">React Native / Expo</div>
+            <div class="bg-slate-800/40 p-4 rounded-lg border border-slate-800 text-center font-medium">PHP</div>
+            <div class="bg-slate-800/40 p-4 rounded-lg border border-slate-800 text-center font-medium">JavaScript / Python</div>
+            <div class="bg-slate-800/40 p-4 rounded-lg border border-slate-800 text-center font-medium">Java</div>
+            <div class="bg-slate-800/40 p-4 rounded-lg border border-slate-800 text-center font-medium">Convex Database</div>
+            <div class="bg-slate-800/40 p-4 rounded-lg border border-slate-800 text-center font-medium">Git / GitHub</div>
+            <div class="bg-slate-800/40 p-4 rounded-lg border border-slate-800 text-center font-medium">Problem Çözme</div>
+            <div class="bg-slate-800/40 p-4 rounded-lg border border-slate-800 text-center font-medium">Sistem Analizi</div>
+        </div>
+    </section>
+
+    <hr class="border-slate-800 max-w-5xl mx-auto">
+
+    <section id="projects" class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <h2 class="text-3xl font-bold mb-2 text-indigo-400">Projelerim</h2>
+        <p class="text-slate-400 mb-8 text-sm">Aşağıdaki projelerin kaynak kodlarına GitHub linkleri üzerinden erişebilirsiniz.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-slate-800/50 border border-slate-800 rounded-xl p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-2">Mobil Araç Kiralama Uygulaması</h3>
+                    <p class="text-slate-400 text-sm mb-4">React Native, Expo ve Convex kullanılarak geliştirilmiş, dinamik araç kategorilerine ve kiralama mantığına sahip mobil uygulama projesi.</p>
+                </div>
+                <a href="https://github.com/Yavuzunal05" target="_blank" class="text-indigo-400 hover:text-indigo-300 font-medium inline-flex items-center text-sm">GitHub'da İncele &rarr;</a>
+            </div>
+
+            <div class="bg-slate-800/50 border border-slate-800 rounded-xl p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-2">Envanter ve Stok takip Sistemi</h3>
+                    <p class="text-slate-400 text-sm mb-4">Yerel bir işletme için PHP ve JavaScript teknolojileriyle geliştirilmiş, kurumsal web sitesi projesi.</p>
+                </div>
+                <a href="https://github.com/Yavuzunal05" target="_blank" class="text-indigo-400 hover:text-indigo-300 font-medium inline-flex items-center text-sm">GitHub'da İncele &rarr;</a>
+            </div>
+
+            <div class="bg-slate-800/50 border border-slate-800 rounded-xl p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-2">Sistem Analizi Portfolyo Sitesi</h3>
+                    <p class="text-slate-400 text-sm mb-4">MBP 206 dersi final projesi kapsamında hazırlanan, Tailwind CSS tabanlı canlıda yayınlanan profesyonel portfolyo web sitesi.</p>
+                </div>
+                <a href="https://github.com/Yavuzunal05" target="_blank" class="text-indigo-400 hover:text-indigo-300 font-medium inline-flex items-center text-sm">GitHub'da İncele &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <hr class="border-slate-800 max-w-5xl mx-auto">
+
+    <section class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
+        <h2 class="text-2xl font-bold mb-6">Özgeçmişimi İndirin</h2>
+        <div class="flex justify-center gap-4">
+            <a href="cv-turkce.pdf" download class="px-5 py-2.5 bg-slate-800 border border-slate-700 hover:bg-slate-700 rounded-lg text-sm font-medium transition">Türkçe CV (PDF)</a>
+            <a href="cv-ingilizce.pdf" download class="px-5 py-2.5 bg-slate-800 border border-slate-700 hover:bg-slate-700 rounded-lg text-sm font-medium transition">İngilizce CV (PDF)</a>
+        </div>
+    </section>
+
+    <hr class="border-slate-800 max-w-5xl mx-auto">
+
+    <section id="contact" class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+        <h2 class="text-3xl font-bold mb-4 text-indigo-400">İletişim</h2>
+        <p class="text-slate-400 mb-8 max-w-md mx-auto">Benimle iş birliği yapmak veya projelerim hakkında konuşmak için aşağıdaki kanallardan ulaşabilirsiniz.</p>
+        <div class="flex flex-col sm:flex-row justify-center items-center gap-6 text-sm text-slate-300">
+            <a href="mailto:yavuzunal05@gmail.com" class="hover:text-white transition">📧 yavuzunal05@gmail.com</a>
+            <a href="https://linkedin.com/in/linkedin-kullanici-adin" target="_blank" class="hover:text-white transition">🔗 LinkedIn Profilim</a>
+            <a href="https://github.com/Yavuzunal05" target="_blank" class="hover:text-white transition">💻 GitHub Profilim</a>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 py-6 text-center text-xs text-slate-600 border-t border-slate-900">
+        <p>&copy; 2026 Yavuz. Tüm Hakları Saklıdır.</p>
+    </footer>
+
+</body>
+</html>
